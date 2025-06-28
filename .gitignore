@@ -1,0 +1,70 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+*.out
+coverage.txt
+profile.out
+
+vendor/
+.env
+.env.*
+!.env.example
+!.env.test
+
+*.log
+logs/
+*.log.*
+
+.idea/
+*.iml
+
+.vscode/
+!.vscode/settings.json # Sometimes useful to share basic settings
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*.swp
+*.swo
+*~
+*.bak
+
+*#
+.#*
+
+main
+build/
+dist/
+tmp/
+
+# Operating System Files
+#########################
+# Synology DiskStation
+@eaDir/
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# DWARF debug information files (macOS)
+*.dSYM/
+
+# If you use CGO, you might have object files
+*.o
+*.a
